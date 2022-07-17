@@ -1,7 +1,6 @@
 import _curses
 import logging
 import curses
-import time
 from curses import wrapper
 from time import sleep
 import random
