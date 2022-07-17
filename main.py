@@ -65,7 +65,7 @@ class ConcreteSubject(Subject):
     _observers = []
 
     def __init__(self, stdscr):
-        super()
+        super().__init__()
         self.stdscr = stdscr
 
     def cor_self(self):
